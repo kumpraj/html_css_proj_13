@@ -1,0 +1,179 @@
+.container-1 {
+    
+    padding: 10px;
+
+    
+}
+
+.navbar {
+height: auto;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    margin-bottom: 10px;;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* width: 350px; */
+}
+
+.list-item {
+    margin: auto;
+    font-size: 12px;
+}
+
+
+
+.list-item button {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+/* hero */
+
+.hero {
+    height: auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-left {
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.hero-left h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    align-self: center;
+    
+}
+
+.hero-left p {
+    color: #fff;
+    margin-top: 20px; 
+    font-size: 12px;
+    align-self: center;
+    padding: 10px 20px;
+    width: 280px;
+}
+
+.hero-right {
+    width: auto;
+    align-self: center;
+    margin: auto;
+}
+
+.hero-right img{
+    position:static;
+    height: auto;
+    width: 280px;
+    margin: auto;
+}
+
+/* features-section */
+
+.features {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.feature-left {
+    width: 300px;
+    margin: auto;
+}
+
+.feature-right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.feature-right h2 {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    align-self: center;
+    text-align: center;
+}
+
+.features-list {
+    margin-top: 10px;
+}
+
+.list-item-f {
+    margin: 20px auto;
+}
+
+.list-item-f h4 {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.list-item-f p {
+    line-height: 1.4em;
+    font-size: 13px;
+    margin: auto;
+    width: 250px;
+    align-self: center;
+}
+
+/* customer-section */
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto; 
+}
+
+.customer-heading {
+    
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: auto; 
+    margin-top: 20px;  
+    
+}
+
+
+.customer-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-self: center;
+}
+
+.customer-cards .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}

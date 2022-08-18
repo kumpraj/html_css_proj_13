@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-1 {
+    
+    background-color:#6533cc;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.navbar {
+height: 15vh;
+/* border: 2px solid black; */
+display: flex;
+margin: 0px 120px;
+justify-content: space-between;
+align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+.list-item {
+    margin-left: 50px;
+    list-style-type: none;
+    cursor: pointer;
+    color:#ffffff;
+    margin: 0 40px;
+}
+
+.list-item:first-child {
+    color:#6694ef;
+    font-weight: bolder;
+    border-bottom: 1px solid #b299e5;
+    max-height: 25px;
+    
+    
+}
+
+.list-item button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color:#ffffff;
+    background-color: #0da8e1;
+    
+    
+}
+
+/* hero */
+
+.hero {
+    height: 85vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.hero-left {
+    /* border: 2px solid black; */
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 120px;
+}
+
+.hero-left h1 {
+    margin-top: 100px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.hero-left p {
+    color: #fff;
+    margin-top: 20px; 
+    font-size: 20px;
+}
+
+.hero-right {
+    /* border: 2px solid gold; */
+    width: 60%;
+    
+    
+    
+}
+
+.hero-right img{
+    position:relative;
+    height: 700px;
+    top: -80px;
+    left: 20px;
+    z-index:2;
+}
+
+/* features-section */
+
+.features {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.feature-left {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 120px;
+}
+
+.feature-right {
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.feature-right h2 {
+    /* border: 2px solid green; */
+    margin-top: 100px;
+    font-size: 2.3rem;;
+}
+
+.features-list {
+    /* border: 2px solid steelblue; */
+    margin-top: 30px;
+}
+
+.list-item-f {
+    margin: 40px 0;
+    list-style-type:none;
+}
+
+.list-item-f h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list-item-f p {
+    line-height: 1.7em;
+}
+
+/* customer-section */
+
+.customer {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 100px;
+    margin-top: 70px;
+    margin-left: 120px;
+    
+}
+
+.customer-heading {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.info h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.info p:nth-of-type(1) {
+    text-align: center;
+    padding: 20px 10px;
+    padding-bottom:10px;
+
+}
+
+
+
+.customer-cards {
+    display: flex;
+    justify-content:space-between;
+}
+
+.customer-cards .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245,56,6, .2);
+    margin: 40px auto 30px auto;
+    border-radius: 500px;
+}
+
+.customer .customer-cards .icon.analytics {
+    background-color: rgba(255, 193, 58, 0.2);
+}
+
+.customer .customer-cards .icon.profile {
+    background-color: rgba(101, 255, 58, 0.2);
+}
+
+.customer .customer-cards .icon.profile img {
+    width: 60px;
+}
+
+.customer .customer-cards .icon.support {
+    background-color: rgba(235, 58, 255, 0.2);
+}
+
+.customer .customer-cards .icon.support img {
+    width: 50px;
+}
+
+.customer .customer-cards .icon.code img {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.customer .customer-cards .card {
+    max-width: 13rem;
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.customer .customer-cards .card:first-child .info {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.customer .customer-cards .card .info {
+    border-radius: 10px;
+    height: 100%;
+    padding: 10px 10px;
+    max-height: 120px;
+}
+
+.customer .customer-cards .card .info h4 {
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    top:12px;
+}
+
+.customer .customer-cards .card .info p {
+    font-size: 13px;
+    
+}
+
+#mark {
+    background-color: #5b2eb7;
+    color: #ffffff;
+    border-radius: 35px;    
+}
